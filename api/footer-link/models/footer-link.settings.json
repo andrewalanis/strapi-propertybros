@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_links",
+  "info": {
+    "name": "MenuItem",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "uri": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

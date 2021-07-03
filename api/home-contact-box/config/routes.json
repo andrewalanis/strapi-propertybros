@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/home-contact-box",
+      "handler": "home-contact-box.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/home-contact-box",
+      "handler": "home-contact-box.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/home-contact-box",
+      "handler": "home-contact-box.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

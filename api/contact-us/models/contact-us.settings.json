@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "contactuses",
+  "info": {
+    "name": "ContactUs"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/properties-image",
+      "handler": "properties-image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/properties-image",
+      "handler": "properties-image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/properties-image",
+      "handler": "properties-image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

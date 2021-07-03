@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "social_media_links_s",
+  "info": {
+    "name": "SocialMediaLinks  "
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "facebook": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}

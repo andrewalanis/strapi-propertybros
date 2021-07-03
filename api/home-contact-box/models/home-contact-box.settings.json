@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_contact_boxes",
+  "info": {
+    "name": "HomeContactBox"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

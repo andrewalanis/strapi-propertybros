@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services_bullet_points",
+  "info": {
+    "name": "Services-bullet-points"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "point": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
